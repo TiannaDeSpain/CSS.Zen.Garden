@@ -78,3 +78,41 @@ header {
       }
     }
   }
+
+  /* -------------------------------- 
+
+xSite Navigation
+
+-------------------------------- */
+.cd-navigation > .cd-box {
+  width: 50%;
+  background-color: rgba($color-1, 80%);
+  border: none;
+}
+
+.cd-navigation .cd-box .cd-box {
+  background-color: transparent;
+  border: none;
+  line-height: 2.5em;
+}
+
+.cd-primary-nav ul li a {
+  color: white;
+  font-family: $secondary-font;
+  margin: 20px;
+  
+}
+
+.cd-box h3 {
+  background-color: rgba(white, 80%);
+  text-indent: 5px;
+  margin-left: -20px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.cd-box h3::before {
+  content: url("..\assets\fishsmall.png");
+  margin: 10px;
+}
+
