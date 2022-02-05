@@ -26,7 +26,7 @@ header {
         color: lighten($color-2, 40%);
   
         &.selected {
-          color: $color-5;
+          color: $list-items;
           box-shadow: 0 2px 0 $color-1;
         }
   
