@@ -1,0 +1,114 @@
+// BODY, MAIN
+
+body {
+    background-color: $light-blue;
+}
+
+.page-wrapper {
+    width: 95%;
+    margin: 0 auto;
+    display: grid;
+}
+
+// HEADERS
+
+header, [role="article"], footer, .design-selection, .design-archives, .zen-resources {
+    background-color: transparentize($dark-blue, $main-transparency);
+}
+
+h1 {
+    padding: $body-padding;
+    font-family: $primary-font;
+    color: $dark-text;
+    font-size: 2em;
+}
+
+h2 {
+    padding: $body-padding;
+    font-family: $secondary-font;
+    color: $orange;
+    font-size: 1.2em;
+}
+
+h3 {
+    background-color: transparentize($white, $main-transparency);
+    padding: $body-padding;
+    color: $dark-text;
+    font-family: $primary-font;
+    margin: $h3-margin;
+}
+
+.summary p:first-child {
+    background-color: transparentize($white, $main-transparency);
+    padding: $body-padding;
+    color: $dark-text;
+    margin: $h3-margin;
+    font-weight: bold;
+}
+
+.summary p:last-child {
+    color: $yellow;
+}
+
+// MAIN TEXT
+
+p, ul, a {
+    color: $light-text;
+    font-family: $secondary-font;
+}
+
+ul {
+    padding: 20px;
+    list-style-type: none;
+    
+}
+ul li {
+    margin-bottom: 20px;
+}
+
+p {
+    padding: $body-padding;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.design-name {
+    display: block;
+}
+
+.designer-name {
+    font-weight: lighter;
+    color: $light-blue;
+}
+
+// FOOTER
+
+footer {
+    padding: 20px;
+    text-align: center;
+    font-family: $secondary-font;
+    word-spacing: 20px;
+    margin: 20px 0px;
+}
+
+// ALIGNMENT FIXES
+
+[role="article"]::before, .design-selection::before, .design-archives::before, .zen-resources::before {
+    content: " ";
+    white-space: pre;
+    display: block;
+}
+
+// GRID 
+
+.intro, .summary {
+    grid-row: 1 / 2;
+}
+
+.sidebar {
+    grid-row: 2;
+    z-index: 1;
+}
