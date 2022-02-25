@@ -111,3 +111,28 @@ footer {
     white-space: pre;
     display: block;
 }
+
+// Flex
+.intro {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+}
+
+[role="banner"] {
+    order: -1;
+    margin-bottom: 1rem;
+}
+
+.summary {
+    order: 0;
+    margin-bottom: 1rem;
+}
+
+.preamble {
+    order: 4;
+}
+
+.mainsupporting {
+    order: 100;
+}
