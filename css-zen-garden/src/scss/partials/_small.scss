@@ -7,12 +7,19 @@ body {
 .page-wrapper {
     width: 95%;
     margin: 0 auto;
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 // HEADERS
 
-header, [role="article"], footer, .design-selection, .design-archives, .zen-resources {
+header,
+[role="article"],
+footer,
+.design-selection,
+.design-archives,
+.zen-resources {
     background-color: transparentize($dark-blue, $main-transparency);
 }
 
@@ -52,7 +59,9 @@ h3 {
 
 // MAIN TEXT
 
-p, ul, a {
+p,
+ul,
+a {
     color: $light-text;
     font-family: $secondary-font;
 }
@@ -60,8 +69,9 @@ p, ul, a {
 ul {
     padding: 20px;
     list-style-type: none;
-    
+
 }
+
 ul li {
     margin-bottom: 20px;
 }
@@ -96,19 +106,8 @@ footer {
 
 // ALIGNMENT FIXES
 
-[role="article"]::before, .design-selection::before, .design-archives::before, .zen-resources::before {
+[role="article"]::before {
     content: " ";
     white-space: pre;
     display: block;
-}
-
-// GRID 
-
-.intro, .summary {
-    grid-row: 1 / 2;
-}
-
-.sidebar {
-    grid-row: 2;
-    z-index: 1;
 }

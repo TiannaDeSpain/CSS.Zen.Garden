@@ -1,18 +1,33 @@
-.sidebar {
-    position: relative;
-    display: inline-block;
-}
+@media screen and (max-width:900px) {
+    .sidebar {
+        position: relative;
+        display: flex;
+        padding: .1em;
+    }
 
-.wrapper {
-    display: none;
-    position: absolute;
-    background-color: $dark-blue;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    padding: 12px 16px;
-    z-index: 1;
-}
+    .wrapper {
+        position: absolute;
+        background-color: $dark-blue;
+        width: 92%;
+        height: 2em;
+        padding: 12px 16px;
+        z-index: 1;
+    }
 
-.sidebar .wrapper {
-    display: block;
+    div#design-archives,
+    div#design-selection,
+    div#zen-resources,
+    div.wrapper h3 {
+        display: inline-block;
+        font-size: small;
+    }
+
+    ul {
+        display: none;
+    }
+
+
+    .sidebar {
+        order: 0;
+    }
 }
