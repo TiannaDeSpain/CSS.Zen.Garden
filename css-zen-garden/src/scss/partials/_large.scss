@@ -1,0 +1,38 @@
+@media screen and (min-width:900px){
+    [class="page-wrapper"]{
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+        justify-content: space-between;
+        
+    }
+    [class="preamble"]{
+        width: 64%;
+    }
+    [class='intro']{
+        width: 100%;
+
+        & .summary{
+            display: flex;
+            align-items: center;
+            justify-content: space-around; 
+            margin-bottom: 2%;
+
+            p:first-child{
+                margin: 0 100px 0 -15px;
+                padding-left: 25px;
+            }
+        }
+    }
+    [class='sidebar']{
+        width: 33%;
+        margin-top: -304px;
+    }
+    [class="main supporting"]{
+        width: 64%;
+        overflow-x: visible;
+        & footer{
+            width: 87vw;
+        }
+    }
+}
