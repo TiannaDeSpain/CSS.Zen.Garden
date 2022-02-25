@@ -1,41 +1,57 @@
-@media screen and (min-width:900px){
-    [class="page-wrapper"]{
+@media screen and (min-width:900px) {
+    [class="page-wrapper"] {
         display: flex;
+        flex-direction: row;
         flex-wrap: wrap;
         width: 90%;
         justify-content: space-between;
-        
+
     }
-    [class="preamble"]{
+
+    [class="preamble"] {
         width: 64%;
+        margin: 0, 0;
+        display: inline-block;
     }
-    [class='intro']{
+
+    [class='intro'] {
         width: 100%;
 
-        & .summary{
+        & .summary {
             display: flex;
             align-items: center;
-            justify-content: space-around; 
+            justify-content: space-around;
             margin-bottom: 2%;
 
-            p:first-child{
+            p:first-child {
                 margin: 0 100px 0 -15px;
                 padding-left: 25px;
+                width: 90vw;
             }
-            p:nth-child(2){
+
+            p:nth-child(2) {
                 padding-right: 75px;
                 font-size: larger;
             }
         }
     }
-    [class='sidebar']{
-        width: 33%;
-        margin-top: -304px;
+
+    [aside] {
+        align-self: flex-end;
+        order: 0;
+        justify-content: flex-start;
+        z-index: 2;
     }
-    [class="main supporting"]{
+
+    [class='wrapper'] {
+        width: 100%
+    }
+
+    [class="main supporting"] {
         width: 64%;
         overflow-x: visible;
-        & footer{
+
+        & footer {
             width: 87vw;
         }
     }
