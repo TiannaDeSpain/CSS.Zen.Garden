@@ -3,7 +3,7 @@
 div h3::before, #zen-summary p:first-child::before {
     content: "";
     display: inline-block;
-    background: url(../../../../css-zen-garden/src/assets/fish-orange-no-eye.svg);
+    background: url(src/assets/fish-orange-no-eye.svg);
     background-repeat: no-repeat;
     background-size: 100%;
     position: relative;
@@ -22,7 +22,7 @@ div h3::before, #zen-summary p:first-child::before {
 .page-wrapper::before {
     content: "";
     display: inline-block;
-    background: url(../../../../css-zen-garden/src/assets/cloud.svg);
+    background: url(src/assets/bubble.svg);
     background-repeat: no-repeat;
     background-size: 100%;
     position: absolute;
@@ -37,7 +37,7 @@ div h3::before, #zen-summary p:first-child::before {
 .page-wrapper::after {
     content: "";
     display: inline-block;
-    background: url(../../../../css-zen-garden/src/assets/cloud.svg);
+    background: url(src/assets/cloud.svg);
     background-repeat: no-repeat;
     background-size: 100%;
     position: absolute;
@@ -60,7 +60,7 @@ div h3::before, #zen-summary p:first-child::before {
 .zen-resources::after {
     content: "";
     display: inline-block;
-    background: url(../../../../css-zen-garden/src/assets/fish-orange.svg);
+    background: url(src/assets/fish-orange.svg);
     background-repeat: no-repeat;
     background-size: 100%;
     position: relative;
@@ -92,7 +92,7 @@ header {
     &::before {
         content: "";
         display: inline-block;
-        background: url(../../../../css-zen-garden/src/assets/cloud-blue.svg);
+        background: url(src/assets/cloud-blue.svg);
         background-repeat: no-repeat;
         background-size: 100%;
         position: relative;
@@ -106,7 +106,7 @@ header {
     &::after {
         content: "";
         display: inline-block;
-        background: url(../../../../css-zen-garden/src/assets/cloud.svg);
+        background: url(src/assets/cloud.svg);
         background-repeat: no-repeat;
         background-size: 100%;
         position: relative;
