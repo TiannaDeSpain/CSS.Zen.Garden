@@ -60,22 +60,6 @@ div h3::before, #zen-summary p:first-child::before {
     display: none;
 }
 
-.requirements {
-    height: 100%;
-}
-
-.requirements::after {
-    content: "";
-    display: inline-block;
-    background: url(src/assets/fish-yellow.svg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    position: relative;
-    top: 50vw;
-    left: 30px;
-    width: 250px;
-    height: 250px;
-}
 
 
 // LOGO IMAGE/TEXT
