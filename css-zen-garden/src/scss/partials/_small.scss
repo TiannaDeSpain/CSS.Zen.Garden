@@ -102,6 +102,9 @@ footer {
     font-family: $secondary-font;
     word-spacing: 20px;
     margin: 20px 0px;
+    & a{
+        color: $orange;
+    }
 }
 
 // ALIGNMENT FIXES
