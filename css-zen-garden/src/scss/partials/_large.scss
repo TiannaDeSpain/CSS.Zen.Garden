@@ -3,7 +3,7 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        width: 90%;
+        max-width: 75%;
         justify-content: space-between;
 
     }
@@ -16,7 +16,6 @@
 
     [class='intro'] {
         width: 100%;
-
         & .summary {
             display: flex;
             align-items: center;
@@ -38,7 +37,7 @@
 
     [class='sidebar']{
         width: 33%;
-        margin-top: -338px;
+        margin-top: -380px;
         & div{
             padding-top: 18px;
         }
@@ -53,7 +52,7 @@
         overflow-x: visible;
 
         & footer {
-            width: 87vw;
+            width: 70.2vw;
         }
     }
 }
