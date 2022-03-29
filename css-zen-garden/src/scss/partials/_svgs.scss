@@ -54,19 +54,18 @@ div h3::before, #zen-summary p:first-child::before {
 // FISH
 
 .zen-resources {
-    height: 20vw;
+    height: 300px;
 }
 
 .zen-resources::after {
-
     content: "";
     display: inline-block;
     background: url(../../../../css-zen-garden/src/assets/fish-orange.svg);
     background-repeat: no-repeat;
     background-size: 100%;
     position: relative;
-    top: 35vw;
-    right: 100px;
+    top: 25vw;
+    left: 30px;
     width: 300px;
     height: 300px;
 }
