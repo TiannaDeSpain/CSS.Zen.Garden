@@ -60,6 +60,66 @@ div h3::before, #zen-summary p:first-child::before {
     display: none;
 }
 
+.extra1, .extra2 {
+    align-items: center;
+}
+
+.extra1::after {
+    content: "";
+    display: inline-block;
+    background: url(src/assets/fish-yellow.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    top: 40px;
+    left: 50px;
+    width: 180px;
+    height: 90px;
+}
+
+.extra2::after {
+    content: "";
+    display: inline-block;
+    background: url(src/assets/fish-orange.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    top: 50px;
+    left: 100px;
+    width: 230px;
+    height: 130px;
+}
+
+// BUBBLES
+
+.extra3::before {
+    content: "";
+    display: inline-block;
+    background: url(src/assets/bubble.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    top: -180px;
+    left: 280px;
+    width: 15px;
+    height: 15px;
+   
+}
+
+.extra3::after {
+    content: "";
+    display: inline-block;
+    background: url(src/assets/bubble.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    top: -220px;
+    left: 280px;
+    width: 30px;
+    height: 30px;
+   
+}
+
 
 
 // LOGO IMAGE/TEXT
@@ -111,6 +171,9 @@ header {
     
 }
 
+
+// LARGE SCREEN
+
 @media screen and (min-width:900px) {
 
     // HEADING FISH
@@ -153,10 +216,6 @@ header {
 
     // FISH
 
-    .requirements {
-        height: 40%;
-    }
-
     .zen-resources {
         height: 300px;
     }
@@ -169,9 +228,9 @@ header {
         background-size: 100%;
         position: relative;
         top: 25vw;
-        left: 10px;
-        width: 300px;
-        height: 300px;
+        left: 6vw;
+        width: 230px;
+        height: 230px;
     }
     
     .design-archives {
@@ -188,14 +247,30 @@ header {
         background-size: 100%;
         position: relative;
         top: 35vw;
-        left: 30px;
-        width: 250px;
-        height: 250px;
-    
+        left: 3vw;
+        width: 180px;
+        height: 180px;
+    }
+
+    .extra1::after {
+        display: none;
+    }
+
+    .extra2::after {
+        display: none;
+    }
+
+    // BUBBLES
+
+    .extra3::before {
+        top: -860px;
+        left: 79vw;
     }
     
-
-
+    .extra3::after {
+        top: -900px;
+        left: 80vw;
+    }
 
 
 }

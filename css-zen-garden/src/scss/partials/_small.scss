@@ -1,9 +1,8 @@
 // BODY, MAIN
 
 body {
-    background: rgb(66,141,212);
     background: linear-gradient(0deg, #428dd4 70%, #60cbdb 70%);
-    
+    margin-bottom: 5%;
 }
 
 .page-wrapper {
@@ -18,11 +17,12 @@ body {
 
 header,
 [role="article"],
-footer,
-.design-selection,
-.design-archives,
-.zen-resources {
+footer {
     background-color: transparentize($dark-blue, $main-transparency);
+}
+
+.wrapper {
+    background-color: transparent;
 }
 
 h1 {
@@ -137,6 +137,6 @@ footer {
     order: 4;
 }
 
-.mainsupporting {
-    order: 100;
+.sidebar {
+    order: 1;
 }
