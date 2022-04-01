@@ -8,6 +8,7 @@
         justify-content: space-between;
 
     }
+
     [class="preamble"] {
         width: 64%;
         margin: 0, 0;
@@ -16,6 +17,7 @@
 
     [class='intro'] {
         width: 100%;
+
         & .summary {
             display: flex;
             align-items: center;
@@ -35,10 +37,11 @@
         }
     }
 
-    [class='sidebar']{
+    [class='sidebar'] {
         width: 33%;
         margin-top: -379px;
-        & div{
+
+        & div {
             padding-top: 18px;
         }
     }
@@ -67,9 +70,19 @@
         order: 1;
     }
 
-    .design-selection, .design-archives, .zen-resources {
+    .design-selection,
+    .design-archives,
+    .zen-resources {
         background-color: transparentize($dark-blue, $main-transparency);
     }
 
 }
 
+@media screen and (min-width:1382px) {
+
+
+    [class='sidebar'] {
+        margin-top: -349px;
+    }
+
+}
