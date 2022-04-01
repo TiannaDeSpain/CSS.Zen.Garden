@@ -88,3 +88,16 @@
     }
 
 }
+
+@media screen and (max-width:440px) {
+
+    div#design-archives,
+    div#design-selection,
+    div#zen-resources,
+    div.wrapper h3 {
+        display: flexbox;
+        font-size: small;
+        text-align: center;
+
+    }
+}
