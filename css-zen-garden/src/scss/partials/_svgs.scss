@@ -231,5 +231,17 @@ header {
 
 }
 
+@media screen and (min-width:2000px) {
+
+    .zen-resources::after {
+        top: 11vw;
+    }
+
+    .design-archives::after {
+        top: 15vw;
+        
+    }
+
+}
 
 
