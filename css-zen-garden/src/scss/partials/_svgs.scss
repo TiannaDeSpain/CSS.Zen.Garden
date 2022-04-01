@@ -73,8 +73,8 @@ div h3::before, #zen-summary p:first-child::before {
     position: relative;
     top: 40px;
     left: 50px;
-    width: 180px;
-    height: 90px;
+    width: 300px;
+    height: 200px;
 }
 
 .extra2::after {
@@ -84,43 +84,11 @@ div h3::before, #zen-summary p:first-child::before {
     background-repeat: no-repeat;
     background-size: 100%;
     position: relative;
-    top: 50px;
-    left: 100px;
+    top: 20px;
+    left: 150px;
     width: 230px;
     height: 130px;
 }
-
-// BUBBLES
-
-.extra3::before {
-    content: "";
-    display: inline-block;
-    background: url(src/assets/bubble.svg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    position: relative;
-    top: -180px;
-    left: 280px;
-    width: 15px;
-    height: 15px;
-   
-}
-
-.extra3::after {
-    content: "";
-    display: inline-block;
-    background: url(src/assets/bubble.svg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    position: relative;
-    top: -220px;
-    left: 280px;
-    width: 30px;
-    height: 30px;
-   
-}
-
-
 
 // LOGO IMAGE/TEXT
 
@@ -227,7 +195,7 @@ header {
         background-repeat: no-repeat;
         background-size: 100%;
         position: relative;
-        top: 25vw;
+        top: 27vw;
         left: 6vw;
         width: 230px;
         height: 230px;
@@ -246,10 +214,10 @@ header {
         background-repeat: no-repeat;
         background-size: 100%;
         position: relative;
-        top: 35vw;
-        left: 3vw;
-        width: 180px;
-        height: 180px;
+        top: 33vw;
+        left: 2vw;
+        width: 300px;
+        height: 300px;
     }
 
     .extra1::after {
@@ -258,18 +226,6 @@ header {
 
     .extra2::after {
         display: none;
-    }
-
-    // BUBBLES
-
-    .extra3::before {
-        top: -860px;
-        left: 79vw;
-    }
-    
-    .extra3::after {
-        top: -900px;
-        left: 80vw;
     }
 
 
