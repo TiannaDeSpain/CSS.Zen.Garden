@@ -55,7 +55,7 @@
         overflow-x: visible;
 
         & footer {
-            width: 150%;
+            width: 152%;
             max-width: 1300px;
         }
     }
@@ -79,8 +79,6 @@
 }
 
 @media screen and (min-width:1382px) {
-
-
     [class='sidebar'] {
         margin-top: -349px;
     }
