@@ -21,8 +21,14 @@
     div#zen-resources,
     div.wrapper h3 {
         display: flexbox;
-        font-size: small;
+        font-size: medium;
+        text-align: center;
 
+    }
+
+    div.wrapper h3 {
+        background-color: rgba(0, 0, 0, 0);
+        color: white;
     }
 
     .main.supporting {
@@ -46,10 +52,10 @@
 
     ul>li>a,
     ul>li {
-        background-color: white;
+        background-color: $dark-blue;
         opacity: 0;
-        color: $dark-text;
-        padding: 10px;
+        color: $light-text;
+        padding: 11px;
         margin: 0;
         -webkit-transition: all 500ms ease-in-out;
         -moz-transition: all 500ms ease-in-out;
